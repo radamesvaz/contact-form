@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
 
 // Comprobamos si hay errores, si no hay entonces enviamos.
 	if (!$errores) {
-		$enviar_a = 'vazRadames@gmail.com';
+		$enviar_a = 'vazradames@gmail.com';
 		$asunto = 'Correo enviado desde miPagina.com';
 		$mensaje = "De: $nombre \n";
 		$mensaje.= "Correo: $correo \n";
